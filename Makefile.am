@@ -2,5 +2,4 @@
 # have all needed files, that a GNU package needs
 AUTOMAKE_OPTIONS = foreign 1.4
 
-SUBDIRS = src zAppRun
-EXTRA_DIST = linux fuseiso.spec
+SUBDIRS = src linux zAppRun
