@@ -1,0 +1,19 @@
+Source: fuseiso
+Section: admin
+Priority: optional
+Maintainer: David Paleino <d.paleino@gmail.com>
+Build-Depends: debhelper (>= 5), autotools-dev, libfuse-dev, zlib1g-dev, libglib2.0-dev, xsltproc, docbook-xsl, docbook-xml
+Standards-Version: 3.7.2
+
+Package: fuseiso
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fuse-utils
+Description: FUSE module to mount ISO filesystem images
+ This package provides a module to mount ISO filesystem images
+ using FUSE.
+ With FUSE it is possible to implement a fully functional
+ filesystem in a userspace program.
+ .
+ It can also mount single-tracks .BIN, .MDF, .IMG and .NRG.
+ .
+  Homepage: http://fuse.sourceforge.net/wiki/index.php/FuseIso
