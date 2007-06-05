@@ -1,3 +1,7 @@
+NOTE by Alexey Eremenko: if you're running rpm-based distro, most chances
+that you will need "fuse-devel" package installed.
+
+
 Basic Installation
 ==================
 
