@@ -1,11 +1,12 @@
-bin_PROGRAMS = fusecram
-fusecram_SOURCES = fusecram.c cramfs.c cramfs.h
+bin_PROGRAMS = fuseiso
+fuseiso_SOURCES = fuseiso.c isofs.c
 
 # set the include path found by configure
-INCLUDES= -I.. $(all_includes)
+INCLUDES= $(all_includes)
 
 # the library search path.
-fusecram_LDFLAGS = $(all_libraries)
+fuseiso_LDFLAGS = $(all_libraries)
+noinst_HEADERS = isofs.h
 
-AM_CFLAGS = -Wall -g `pkg-config --cflags glib-2.0` -D_FILE_OFFSET_BITS=64
-AM_LDFLAGS = -g -lfuse `pkg-config --libs glib-2.0` -lz
+AM_CFLAGS = -D_FILE_OFFSET_BITS=64 `pkg-config --cflags fuse glib-2.0` -Wall
+AM_LDFLAGS = `pkg-config --libs fuse glib-2.0` -lz
