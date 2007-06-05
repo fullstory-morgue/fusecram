@@ -1,0 +1,41 @@
+fusecram (20051104-2) unstable; urgency=low
+
+  * resurrect fusecram.
+  * remove cdbs autoupdate feature.
+  * bump compat level to 5.
+  * bump standards version to 3.7.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 23 Dec 2006 00:23:41 +0100
+
+fusecram (20051104-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Sun,  6 Nov 2005 11:53:08 +1000
+
+fusecram (0.1+20050922-4) unstable; urgency=low
+
+  * Depend on fuse-utils.
+  * Fix typo in last changelog entry.
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Tue, 11 Oct 2005 22:08:29 +1000
+
+fusecram (0.1+20050922-3) unstable; urgency=low
+
+  * Remove unrequired fusecram.install file. 
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Thu, 29 Sep 2005 01:37:30 +1000
+
+fusecram (0.1+20050922-2) unstable; urgency=low
+
+  * Fix build-deps.
+  * Minor manpage cleanup. 
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Thu, 22 Sep 2005 14:00:06 +1000
+
+fusecram (0.1+20050922-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Kel Modderman <kelrin@tpg.com.au>  Thu, 22 Sep 2005 12:46:04 +1000
+
