@@ -1,3 +1,10 @@
+fusecram (20051104-3) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+  * add VCS control headers.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 11 Sep 2007 20:14:19 +0200
+
 fusecram (20051104-2) unstable; urgency=low
 
   * resurrect fusecram.
