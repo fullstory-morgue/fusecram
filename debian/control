@@ -5,8 +5,8 @@ Maintainer: Kel Modderman <kelrin@tpg.com.au>
 Build-Depends: cdbs, autotools-dev, debhelper (>= 5), libfuse-dev, libglib2.0-dev, zlib1g-dev
 Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Standards-Version: 3.7.2
-XS-Vcs-Svn: svn://svn.berlios.de/fullstory/fusecram/trunk
-XS-Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/fusecram/trunk/
+Vcs-Svn: svn://svn.berlios.de/fullstory/fusecram/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/fusecram/trunk/
 
 Package: fusecram
 Architecture: any
