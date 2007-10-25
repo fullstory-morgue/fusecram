@@ -1,10 +1,9 @@
-fusecram (20051104-3) UNRELEASED; urgency=low
+fusecram (20051104-3) unstable; urgency=low
 
-  * NOT RELEASED YET
   * add VCS control headers.
   * update syntax for Vcs headers in debian/control
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 07 Oct 2007 14:41:51 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 25 Oct 2007 18:38:47 +0200
 
 fusecram (20051104-2) unstable; urgency=low
 
