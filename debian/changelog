@@ -2,8 +2,9 @@ fusecram (20051104-4) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
   * update to Standards-Version 3.7.3, no changes necessary.
+  * add debian/watch.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 03 Dec 2007 13:49:48 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 08 Dec 2007 13:23:07 +0100
 
 fusecram (20051104-3) unstable; urgency=low
 
