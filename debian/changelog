@@ -1,3 +1,9 @@
+fusecram (20051104-7) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 20 Feb 2008 22:31:36 +0100
+
 fusecram (20051104-6) unstable; urgency=low
 
   * appease lintian and write (C) as © in debian/copyright.
