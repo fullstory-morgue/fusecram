@@ -1,8 +1,8 @@
-fusecram (20051104-6) UNRELEASED; urgency=low
+fusecram (20051104-6) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * appease lintian and write (C) as © in debian/copyright.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 18 Jan 2008 23:30:54 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 20 Feb 2008 22:30:02 +0100
 
 fusecram (20051104-5) unstable; urgency=low
 
