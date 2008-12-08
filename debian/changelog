@@ -1,3 +1,9 @@
+fusecram (20051104-8) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 22:30:47 +0100
+
 fusecram (20051104-7) unstable; urgency=low
 
   * make lintian happy and depend on ${misc:Depends}.
