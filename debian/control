@@ -2,7 +2,12 @@ Source: fusecram
 Section: utils
 Priority: optional
 Maintainer: Kel Modderman <kelrin@tpg.com.au>
-Build-Depends: cdbs, autotools-dev, debhelper (>= 6), libfuse-dev, libglib2.0-dev, zlib1g-dev
+Build-Depends: cdbs,
+               autotools-dev,
+               debhelper (>= 6),
+               libfuse-dev,
+               libglib2.0-dev,
+               zlib1g-dev
 Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Standards-Version: 3.7.3
 Vcs-Svn: svn://svn.berlios.de/fullstory/fusecram/trunk
@@ -10,7 +15,9 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/fusecram/trunk/
 
 Package: fusecram
 Architecture: any
-Depends: ${shlibs:Depends}, fuse-utils
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         fuse-utils
 Suggests: fuse-modules
 Description: Mount cramfs images with FUSE
  An alternative method for mounting cramfs images using
