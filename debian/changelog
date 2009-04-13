@@ -1,8 +1,9 @@
-fusecram (20051104-8) UNRELEASED; urgency=low
+fusecram (20051104-8) ORPHANED; urgency=low
 
   * NOT RELEASED YET
+  * ORPHAN PACKAGE
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 22:30:47 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 13 Apr 2009 13:19:20 +0200
 
 fusecram (20051104-7) unstable; urgency=low
 
